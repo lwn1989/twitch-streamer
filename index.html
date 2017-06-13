@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch Streamers</title>
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Black+Ops+One|Ceviche+One|Fredericka+the+Great|Luckiest+Guy|Orbitron|Ultra" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="page" id="top">
+<div class="main col-12 col-lg-8 offset-lg-2" id="mainBlock">
+  <div class="header">
+  <div class="title">
+      <i class="fa fa-twitch fa-3x animated infinite pulse"></i><br>
+      <h2>Twitch Streamers</h2>
+  </div>
+  <nav class="navbar navbar-inverse navbar-toggleable-md bg-inverse">
+    <button class="navbar navbar-toggler py-2 px-3" type="button" data-toggle="collapse" data-target="#navbar1">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--<a class="navbar-brand" href="#">CHANNEL</a>-->
+    <div class="collapse navbar-collapse" id="navbar1">
+      <ul class="navbar-nav mr-auto mt-md-0">
+        <li class="nav-item active px-3 py-2 px-lg-2 py-lg-3">
+          <a class="nav-link" href="#" id="all1">ALL</a>
+        </li>
+        <li class="nav-item px-3 py-2 px-lg-2 py-lg-3">
+          <a class="nav-link" href="#" id="online1">ONLINE</a>
+        </li>
+        <li class="nav-item px-3 py-2 px-lg-2 py-lg-3">
+          <a class="nav-link" href="#" id="offline1">OFFLINE</a>
+        </li>
+        <li class="nav-item px-3 py-2 px-lg-2 py-lg-3">
+          <a class="nav-link" href="#" id="error1">UNAVAILABLE</a>
+        </li>
+      </ul>
+      <form class="form-inline py-2 px-3 py-lg-0 pr-lg-3">
+        <input type="text" class="form-control mr-2" style="width:11rem" id="searchContent" placeholder="Search Channel">
+        <button type="submit" class="btn-search btn btn-outline-success"><i class="fa fa-search"></i></button>
+        <input type="submit" style="display:none;">
+      </form>
+    </div>
+  </nav>
+  </div>
+  <div id="streamers" class="streamers-list">
+    <ul class="showlist">
+      
+    </ul>
+  </div>
+</div>
+<div class="sidenav">
+  <ul class="">
+    <a href="#top" id="top1"><li><i class="fa fa-sort-up fa-fw fa-2x"></i><span class="tag tag1">top</span></li></a>
+    <a href="#" id="all2"><li><i class="fa fa-twitch fa-fw fa-2x"></i><span class="tag tag2">all</span></li></a>
+    <a href="#" id="online2"><li><i class="fa fa-play fa-fw fa-2x "></i><span class="tag tag3">online</span></li></a>
+    <a href="#" id="offline2"><li><i class="fa fa-moon-o fa-fw fa-2x "></i><span class="tag tag4">offline</span></li></a>
+    <a href="#" id="error2"><li><i class="fa fa-user-times fa-fw fa-2x"></i><span class="tag tag5">error</span></li></a>
+  </ul>
+</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://use.fontawesome.com/8652843470.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
